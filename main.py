@@ -8,7 +8,7 @@ from kivy.uix.scatter import Scatter
 
 class myApp(App):
     def build(self):
-        fl = FloatLayout(size=(200, 200), pos_hint={'center_y': .5, 'center_x': .5})
+        fl = FloatLayout(size=(200, 200), pos_hint={'center_y': .4, 'center_x': .5})
         fl.add_widget(Button(
             text="button 1",
             font_size=20,
